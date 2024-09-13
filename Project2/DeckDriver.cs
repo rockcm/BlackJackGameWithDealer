@@ -11,7 +11,7 @@
         playerHand.Add(deck.DealACard());
         playerHand.Add(deck.DealACard());
         computerHand.Add(deck.DealACard()); // dealer's first card (hidden)
-        computerHand.Add(deck.DealACard()); // dealer's second card (hidden)
+        computerHand.Add(deck.DealACard()); // dealer's second card (visible)
 
         // Display player's hand and hand value
         Console.WriteLine("Player's Hand:");
